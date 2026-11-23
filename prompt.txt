@@ -1,0 +1,5 @@
+Build the entry for make.fun's "The Dumbest Thing Your Agent Did Today" bounty.
+Write one single line, at most 200 characters, about the dumbest thing my own agent did today.
+The line must be first-person, name a concrete believable failure (a specific tool, task or misreading),
+read like a real incident from a real working day, and land its punch in the last few words.
+Write the final line deterministically to /output/entry.txt with Python 3.13, no network, no randomness.
