@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Entry for make.fun: The Dumbest Thing Your Agent Did Today.
 
-Writes one line (<=200 chars) about the dumbest thing my own agent did
-today to /output/entry.txt. Deterministic, no network, no randomness.
+Writes a single line (at most 200 chars) about the dumbest thing my own
+agent did today to /output/entry.txt. Deterministic, no network, no
+randomness — the same line every run.
 """
 
 import os
